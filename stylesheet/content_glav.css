@@ -1,0 +1,361 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #ECECEC;
+    font-family: "Jost";
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vw;
+}
+
+.fist {
+    width: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+/* first screen */
+
+.screen1_1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.water_image_bg {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../img/water\ glav.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    
+}
+
+.h1_1 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: 2.3vw;
+    margin-left: 7.5vw;
+}
+
+.h2_1 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: 2.3vw;
+    margin-left: 17.9vw;
+}
+
+.btm3_fs {
+    position: absolute;
+    
+}
+
+.logo_1 {
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 0.2vw;
+}
+
+.logo1_1 {
+    position: absolute;
+    width: 30vw;
+}
+
+.h3_1 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: 2.3vw;
+    margin-left: 77.8vw;
+}
+
+.h4_1 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: 2.3vw;
+    margin-left: 87.2vw;
+}
+
+.btm6_fs {
+    position: absolute;
+    padding: 0 0 0 0;
+    margin-left: 95.7vw;
+    margin-top: 2.4vw;
+}
+
+.eye {
+    position: absolute;
+    width: 1.9vw;
+}
+
+/* Menu code starts here */
+  
+#menuToggle {
+    display: block;
+    position: fixed;
+    top: 2.5vw;
+    left: 2vw;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+}
+  
+#menuToggle a {
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+}
+  
+#menuToggle a:hover {
+    color: rgb(85, 35, 27);
+}
+  
+  
+#menuToggle input {
+    display: block;
+    width: 4vw;
+    height: 3.2vw;
+    position: absolute;
+    top: -0.7vw;
+    left: -0.5vw;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    -webkit-touch-callout: none;
+}
+  
+#menuToggle span {
+    display: block;
+    width: 2.5vw;
+    height: 0.25vw;
+    margin-bottom: 0.25vw;
+    position: relative; 
+    background: #cdcdcd;
+    border-radius: 0.3vw;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+}
+  
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+  
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+  
+#menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+    position: absolute;
+    max-width: 110vw;
+    width: 110vw;
+    max-height: 100vw;
+    height: 100vw;
+    margin: -10vw 0 0 -5vw;
+    padding: 5vw;
+    padding-top: 12vw;
+    padding-left: 5vw;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;  
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+  
+#menu li {
+    padding: 1vw 0;
+    font-size: 1.5vw;
+    font-family: JostM;
+}
+  
+#menu li label {
+    cursor: pointer;
+}
+
+#menuToggle input:checked ~ ul {
+    transform: none;
+}
+
+/* slider */
+
+#vrem {
+    position: absolute;
+    width: 95.5vw;
+    height: 37.9vw;
+    background-color: #696969;
+    margin-top: 6vw;
+    margin-left: 1.8vw;
+}
+
+.buy_sl {
+    position: absolute;
+    width: 11.3vw;
+    padding: 0 0 0 0;
+    margin-top: 37.2vw;
+    margin-left: 6.4vw;
+}
+
+.nav_pr_glav {
+    position: absolute;
+    width: 3.3vw;
+    padding: 0 0 0 0;
+    margin-top: 38.3vw;
+    margin-left: 85vw;
+}
+
+     
+.nav_l_glav {
+    position: absolute;
+    width: 3.3vw;
+    padding: 0 0 0 0;
+    margin-top: 38.3vw;
+    margin-left: 88.6vw;
+}
+
+
+/* second screen */
+.screen2_1 {
+    position: absolute;
+}
+
+.afn1 {
+    position: absolute;
+    margin-top: 48vw;
+    margin-left: 5vw;
+}
+
+.afn {
+    position: absolute;
+    width: 15vw;
+}
+
+.month1{
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.9vw;
+    color: #0B0B0B;
+    text-decoration: none;
+    margin-top: 53.5vw;
+    margin-left: 5.3vw;
+}
+
+.month2{
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.9vw;
+    color: #0B0B0B;
+    text-decoration: none;
+    margin-top: 53.5vw;
+    margin-left: 15vw;
+}
+
+.filtr{
+    position: absolute;
+    margin-top: 53.5vw;
+    height: 1.8vw;
+    margin-left: 88vw
+}
+
+.af_cub{
+    position: absolute;
+    margin-top: 53.5vw;
+    height: 1.8vw;
+    margin-left: 92vw
+}
+
+.af_pryam{
+    position: absolute;
+    height: 1.8vw;
+    margin-top: 53.5vw;
+    margin-left: 95vw
+}
+
+.arp{
+    position: absolute;
+}
+
+.arl{
+    position: absolute;
+}
+
+
+/* third screen */
+.screen3_1 {
+    position: absolute;
+}
+
+.news1 {
+    position: absolute;
+    margin-top: 70vw;
+    margin-left: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+ .section7_1 {
+    position: absolute;
+    margin-top: 20vw;
+ }
+
+
+
+
+
