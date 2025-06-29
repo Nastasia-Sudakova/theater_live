@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet/style.css" />
+    <script src="./javascript/js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js">
+    </script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <title>Театр /Жизни/</title>
+</head>
+<body>
+    <!-- first screen -->
+    <div class="screen1_1">
+      <!-- water -->
+          <div class="water_image_bg"></div>
+  
+        <script>
+           $(".water_image_bg").ripples({
+            resolution: 360,
+            perturbance: 0.02
+            }); 
+        </script>
+        
+  
+        <!-- menu -->
+        <!-- menu pad -->
+        <nav role="navigation" class="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" id="menuCheckbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <li>
+                <a href="./afisha.html">
+                  <label for="menuCheckbox" onclick="this.parentNode.click();">АФИША</label>
+                </a>
+              </li>
+              <li>
+                <a href="./perf.html">
+                  <label for="menuCheckbox" onclick="this.parentNode.click();">СПЕКТАКЛИ</label>
+                </a>
+              </li>
+              <li><label for="menuCheckbox"><a href="./audience/rules_pos.html">ЗРИТЕЛЯМ</a></label></li>
+              <li><label for="menuCheckbox"><a href="./theater/politics.html">О ТЕАТРЕ</a></label></li>
+              <li><label for="menuCheckbox"><a href="./magazin.html">ЖУРНАЛЫ</a></label></li>
+              <li><label for="menuCheckbox"><a href="./error.html">ПУТЕШЕСТВИЕ</a></label>
+              </li>
+              <div class="af_menu1">
+                <img src="./img/af_perf/go_perf_af.svg" alt="" class="af_menu">
+              </div>
+            </ul>
+          </div>
+        </nav>
+  
+      </div>
+        <a href="./perf.html" class="h1_1">СПЕКТАКЛИ</a>
+        <a href="./theater/people.html" class="h2_1">ЛЮДИ ТЕАТРА</a>
+        <a href="./index.html" class="logo_1"><img src="./img/logo/logo_1.svg" alt="" class="logo1_1"></a>
+        <a href="./magazin.html" class="h3_1">ЖУРНАЛЫ</a>
+        <a href="./afisha.html" class="h4_1">БИЛЕТЫ</a>
+        <a href="./error.html" class="eye1"><img src="./img/eye.svg" alt="" class="eye"></a>
+      
+
+
+      <!-- screen 2 -->
+      <div class="screen2_1">
+        <div alt="" class="afisha_name">Афиша</div>
+
+        <div class="mounth1"><a id="mounth1" class="mounth_1">Сентябрь</a></div>
+        <!-- <div class="mounth2"><a id="mounth2" class="mounth_2">Октябрь</a></div> -->
+        <div class="conteiner_af">
+          <div class="perf1_glav">
+            <div class="text_afglav1">16 сентября</div>
+            <div class="text_afglav2">вторник, 19:00</div>
+            <div class="perf1_img"><img src="./img/af_perf/song.png" alt="" class="perf1_img1"></div>
+            <div class="text_afglav3">ПЕСНЬ РУСАЛКИ</div>
+            <div class="text_afglav4">Режиссер - Настасья Судакова</div>
+            <div class="text_afglav5" id="text_afglav5">БОЛЬШАЯ СЦЕНА</div>
+            <div class="text_afglav6">6+</div>
+            <a href="./perf/song.html"><button class="text_afglav7" id="text_afglav7">КУПИТЬ БИЛЕТ</button></a>
+            <div id="line1"></div>
+          </div>
+          <div class="perf2_glav">
+            <div class="text_afglav1_2">17 сентября</div>
+            <div class="text_afglav2_2">среда, 19:00</div>
+            <div class="perf1_img_2"><img src="./img/slaider/_1700716-2.jpg" alt="" class="perf1_img1_2"></div>
+            <div class="text_afglav3_2">ХОЛОП</div>
+            <div class="text_afglav4_2">Режиссер - Настасья Судакова</div>
+            <div class="text_afglav5_2" id="text_afglav5_2">МАЛАЯ СЦЕНА</div>
+            <div class="text_afglav6_2">12+</div>
+            <a href="./perf/holop.html"><button class="text_afglav7_2" id="text_afglav7_2">КУПИТЬ БИЛЕТ</button></a>
+            <div id="line2"></div>
+          </div>
+          <div class="perf3_glav">
+            <div class="text_afglav1_3">18 сентября</div>
+            <div class="text_afglav2_3">четверг, 19:00</div>
+            <div class="perf1_img_3"><img src="./img/slaider/way.png" alt="" class="perf1_img1_3"></div>
+            <div class="text_afglav3_3">В ПУТЬ</div>
+            <div class="text_afglav4_3">Режиссер - Настасья Судакова</div>
+            <div class="text_afglav5_3" id="text_afglav5_3">МАЛАЯ СЦЕНА</div>
+            <div class="text_afglav6_3">16+</div>
+            <a href="./perf/way.html"><button class="text_afglav7_3" id="text_afglav7_3">КУПИТЬ БИЛЕТ</button></a>
+            <div id="line3"></div>
+          </div>
+          <div class="perf4_glav">
+            <div class="text_afglav1_4">19 сентября</div>
+            <div class="text_afglav2_4">пятница, 14:00</div>
+            <div class="perf1_img_4"><img src="./img/slaider/_1300394.jpg" alt="" class="perf1_img1_4"></div>
+            <div class="text_afglav3_4">МАТЬ</div>
+            <div class="text_afglav4_4">Режиссер - Борис Константинов</div>
+            <div class="text_afglav5_4" id="text_afglav5_4">БОЛЬШАЯ СЦЕНА</div>
+            <div class="text_afglav6_4">12+</div>
+            <a href="./perf/mother.html"><button class="text_afglav7_4" id="text_afglav7_4">КУПИТЬ БИЛЕТ</button></a>
+            <div id="line4"></div>
+          </div>
+          <div class="perf5_glav">
+            <div class="text_afglav1_5">19 сентября</div>
+            <div class="text_afglav2_5">пятница, 19:00</div>
+            <div class="perf1_img_5"><img src="./img/slaider/_1700716-2.jpg" alt="" class="perf1_img1_5"></div>
+            <div class="text_afglav3_5">ХОЛОП</div>
+            <div class="text_afglav4_5">Режиссер - Настасья Судакова</div>
+            <div class="text_afglav5_5" id="text_afglav5_5">МАЛАЯ СЦЕНА</div>
+            <div class="text_afglav6_5">12+</div>
+            <a href="./perf/holop.html"><button  class="text_afglav7_5" id="text_afglav7_5">КУПИТЬ БИЛЕТ</button></a>
+            <div id="line5"></div>
+          </div>
+        </div>
+
+        <p class="all_afisha"><a href="./afisha.html" class="all_afisha1">ВСЯ АФИША</a></p>
+      </div>
+
+
+      <!-- screen 3 -->
+      <!-- <div class="screen3_1">
+        <div alt="" class="news_name">Новости</div>
+        <p class="all_news"><a href="./theater/news.html" class="all_news1">все новости</a></p>
+        <div class="nn_glav">
+          <a href="./news/news1.html" id="news1"><p class="news1_1">Закулисье спектакля "МАТЬ"</p></a>
+          <a href="./news/news2.html" id="news2"><p class="news2_1">Выходные в языческом театре</p></a>
+          <a href="news/news3.html" id="news3"><p class="news3_1">Тайна девяти столбов</p></a>
+        </div>
+      </div> -->
+
+
+      <!-- screen 4 -->
+      <div class="screen4_1">
+        <div alt="" class="act_name" id="callTwo">Актеры</div>
+
+        <main class="WrapperContainer" id="siteContainer">
+          <section class="Page1 BaseLayers" id="PageOne">
+            <i>
+              <div class="act">
+                <div class="grigorev">
+                <a href="./people/grigorev.html"><img src="./img/people/grigorev_1.png" alt="" class="grigorev1"></a>
+                <a href="./people/grigorev.html" class="grigorev2">Григорьев Анатолий</a>
+              </div>
+
+               <div class="bodrova">
+                <a href="./people/bodrova.html"><img src="./img/people/bodrova_1.png" alt="" class="bodrova1"></a>
+                <a href="./people/bodrova.html" class="bodrova2">Бодрова Екатерина</a>
+              </div>
+
+              <div class="mamlin">
+                <a href="./people/mamlin.html"><img src="./img/people/mamlin_1.png" alt="" class="mamlin1"></a>
+                <a href="./people/mamlin.html" class="mamlin2">Мамлин Тимофей</a>
+              </div>
+
+              <div class="vaskov">
+                <a href="./people/vaskov.html"><img src="./img/people/vaskov_1.png" alt="" class="vaskov1"></a>
+                <a href="./people/vaskov.html" class="vaskov2">Васьков Денис</a>
+              </div>
+
+              <div class="lozovaya">
+                <a href="./people/lozovaya.html"><img src="./img/people/lozovaya_1.png" alt="" class="lozovaya1"></a>
+                <a href="./people/lozovaya.html" class="lozovaya2">Лозовая Альбина</a>
+              </div>
+
+              <div class="ganin">
+                <a href="./people/ganin.html"><img src="./img/people/ganin_1.png" alt="" class="ganin1"></a>
+                <a href="./people/ganin.html" class="ganin2">Ганин Денис</a>
+              </div>
+
+              <div class="muchoedova">
+                <a href="./people/muchoedova.html"><img src="./img/people/muchoedova_1.png" alt="" class="muchoedova1"></a>
+                <a href="./people/muchoedova.html" class="muchoedova2">Мухоедова Татьяна</a>
+              </div>
+
+              <div class="belinskaya">
+                <a href="./people/belinskaya.html"><img src="./img/people/belinskaya_1.png" alt="" class="belinskaya1"></a>
+                <a href="./people/belinskaya.html" class="belinskaya2">Белинская Анастасия</a>
+              </div>
+
+              <div class="polyakov">
+                <a href="./people/polyakov.html"><img src="./img/people/polyakov_1.png" alt="" class="polyakov1"></a>
+               <a href="./people/polyakov.html" class="polyakov2">Поляков Павел</a>
+              </div>
+
+              <div class="rusanova">
+                <a href="./people/rusanova.html"><img src="./img/people/rusanova_1.png" alt="" class="rusanova1"></a>
+                <a href="./people/rusanova.html" class="rusanova2">Русанова Луиза</a>
+              </div>
+
+              <div class="kuchinskiy">
+                <a href="./people/kuchinskiy.html"><img src="./img/people/kuchinski_1.png" alt="" class="kuchinskiy1"></a>
+                <a href="./people/kuchinskiy.html" class="kuchinskiy2">Кучинский Алексей</a>
+              </div>
+
+              <div class="vasilieva">
+                <a href="./people/vasilieva.html"><img src="./img/people/vasileva_1.png" alt="" class="vasilieva1"></a>
+                <a href="./people/vasilieva.html" class="vasilieva2">Васильева Софья</a>
+              </div>
+
+              <div class="vorobiev">
+                <a href="./people/vorobiev.html"><img src="./img/people/vorobiev_1.png" alt="" class="vorobiev1"></a>
+                <a href="./people/vorobiev.html" class="vorobiev2">Воробьев Никита</a>
+              </div>
+
+              <div class="ovechkin">
+                <a href="./people/ovechkin.html"><img src="./img/people/ovechkin_1.png" alt="" class="ovechkin1"></a>
+                <a href="./people/ovechkin.html" class="ovechkin2">Овечкин Егор</a>
+              </div>
+              </div>
+            </i>
+          </section>
+
+        </div>
+      </div>
+
+
+      <!-- screen 5 -->
+      <!-- <div class="screen5_1">
+        <div id="animals"></div>
+      </div> -->
+
+
+      <!-- fin plashka -->
+      <div class="screen6_1">
+        <div id="plashka_fin"></div>
+        <p class="z1" id="z1">Подпишитесь на нашу рассылку и будьте в курсе последних новостей театра</p>
+        
+        <div class="container333">
+        <div class="card1">
+            <form id="thanks" method="POST">
+                <input type="email" name="email" 
+                    id="email" 
+                    placeholder="E-mail" 
+                    required>
+                <button type="submit" class="btm_fin_podpis" id="btm_fin_podpis"><a href="" class="btm_fin_podpis1" id="btm_fin_podpis1">ПОДПИСАТЬСЯ</a></button>
+            </form>
+            
+            <p class="msg" id="congo">
+                Спасибо за подписку!
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById("thanks");
+        const successMessage =
+            document.getElementById("congo");
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            successMessage.style.display = "block";
+        });
+    </script>
+
+        <div id="plashka_fin_line"></div>
+        <div class="fin_fin">
+          <a href="./afisha.html" class="zz1">Афиша</a>
+          <a href="./perf.html" class="zz2">Спектакли</a>
+          <a href="./audience.html" class="zz3">Зрителям</a>
+          <a href="./theater.html" class="zz3_3">О театре</a>
+          <a href="./magazin.html" class="zz4">Журнал</a>
+          <a href="./travel.html" class="zz5">Путешествие</a>
+          <a href="./audience/svo.html" class="zz6">Участникам СВО</a>
+          <a href="./error.html" class="zz8">Документы</a>
+          <a href="./theater/politics.html" class="zz10">Политика обработки персональных данных</a>
+          <a href="./theater/politics.html" class="zz11">Пользовательское соглашение</a>
+
+         <p class="z2" id="z2">Касса</p>
+         <p class="z3" id="z3">+7 (495) 868-15-47</p>
+          <p class="z4" id="z4">+7 (495) 878-15-47</p>
+         <p class="z5" id="z5">10:00 - 19:00 без перерыва</p>
+         <p class="z6" id="z6">Администрация</p>
+         <p class="z7" id="z7">+7 (495) 568-78-54</p>
+         <p class="z8" id="z8">admi@theater-live.ru</p>
+         <p class="z9" id="z9">Приемная директора</p>
+         <p class="z10" id="z10">+7 (495) 566-23-78</p>
+         <p class="z11" id="z11">Создание сайте - <a href="./error.html" class="zz12">nastasiasudakova.com</a></p>
+         <p class="z12" id="z12">info@theater-live.ru</p>
+          <div class="operator_plashka">
+           <img src="./img/social/kassir.png" alt="" class="kassir">
+           <img src="./img/social/mts.jpg" alt="" class="mts">
+           <img src="./img/social/yandex.png" alt="" class="yandex">
+         </div>
+         <p class="z14" id="z14">Официальные билетные операторы</p>
+         <p class="z15" id="z15">125196, Москва, ул. Лесная, 7</p>
+         <p class="z16" id="z16">Театр /Жизни/</p>
+         <a href="" class="vk"><img src="./img/social/vk.png" alt="" class="vk1"></a>
+         <a href="" class="tg"><img src="./img/social/telegram.png" alt="" class="tg1"></a>
+         <a href="" class="yt"><img src="./img/social/youtube.png" alt="" class="yt1"></a>
+        </div>
+  </div>
+      
+</body>
+</html>
