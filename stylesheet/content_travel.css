@@ -1,0 +1,156 @@
+.screen1_2 {
+   width: 100vw;
+   height: 10vw;
+}
+
+.screen1_3 {
+   width: 100vw;
+   height: 10vw;
+}
+
+.h1_3 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: -7.5vw;
+    margin-left: 7.5vw;
+}
+
+.h1_3:hover, .h2_3:hover, .h3_3:hover, .h4_3:hover {
+    color: #372e21;
+}
+
+.h2_3 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: -7.5vw;
+    margin-left: 17.9vw;
+}
+
+.logo_3 {
+    position: absolute;
+    margin-left: 46vw;
+    margin-top: -9vw;
+}
+
+.logo1_3 {
+    position: absolute;
+    width: 8vw;
+}
+
+.h3_3 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: -7.5vw;
+    margin-left: 77.8vw;
+}
+
+.h4_3 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: -7.5vw;
+    margin-left: 87.2vw;
+}
+
+.eye3 {
+    position: absolute;
+    margin-left: 95vw;
+    margin-top: -8.5vw;
+}
+
+.h1_2 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: 2.5vw;
+    margin-left: 7.5vw;
+}
+
+.h1_2:hover, .h2_2:hover, .h3_2:hover, .h4_2:hover {
+    color: #372e21;
+}
+
+.h2_2 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: 2.5vw;
+    margin-left: 17.9vw;
+}
+
+.logo_2 {
+    position: absolute;
+    margin-left: 46vw;
+    margin-top: 1vw;
+}
+
+.logo1_2 {
+    position: absolute;
+    width: 8vw;
+}
+
+.h3_2 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: 2.5vw;
+    margin-left: 77.8vw;
+}
+
+.h4_2 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #E4E4E4;
+    text-decoration: none;
+    margin-top: 2.5vw;
+    margin-left: 87.2vw;
+}
+
+.eye2 {
+    position: absolute;
+    margin-left: 95vw;
+    margin-top: 1.5vw;
+}
+
+.section7_1 {
+    position: absolute;
+    margin-top: -30vw;
+ }
+
+ .travel_p {
+
+ }
+
+ .col {
+    margin-bottom: 2.5vw;
+ }
+
+ .container {
+ 
+ }

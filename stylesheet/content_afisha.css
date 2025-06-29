@@ -1,0 +1,634 @@
+/* first screen 2 */
+
+.screen1_2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.h1_2 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #202020;
+    text-decoration: none;
+    margin-top: 2.6vw;
+    margin-left: 7.5vw;
+}
+
+.h2_2 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #202020;
+    text-decoration: none;
+    margin-top: 2.6vw;
+    margin-left: 17.9vw;
+}
+
+.btm3_fs2 {
+    position: absolute;
+    
+}
+
+.logo_2 {
+    position: absolute;
+    margin-left: 43vw;
+    margin-top: 1.3vw;
+}
+
+.logo1_2 {
+    position: absolute;
+    width: 14vw;
+}
+
+.h3_2 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #202020;
+    text-decoration: none;
+    margin-top: 2.6vw;
+    margin-left: 77.8vw;
+}
+
+.h4_2 {
+    position: absolute;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: #202020;
+    text-decoration: none;
+    margin-top: 2.6vw;
+    margin-left: 87.2vw;
+}
+
+.btm6_fs2 {
+    position: absolute;
+    padding: 0 0 0 0;
+    margin-left: 95.7vw;
+    margin-top: 2.4vw;
+}
+
+.eye2 {
+    position: absolute;
+    width: 1.9vw;
+}
+
+.screen2_2 {
+    position: absolute;
+    margin-top: 10vw;
+}
+
+#pl22 {
+    position: absolute;
+    width: 100vw;
+    height: 6vw;
+    background-color: #0f0f0f;
+}
+
+.section2_5 {
+    width: 100vw;
+    height: 95vh;
+}
+
+.mounth_12 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #151515;
+    margin-left: 86.5vw;
+    margin-top: 0.8vw;
+}
+
+/* perf1 */
+.perf1_glav {
+    width: 100vw;
+    margin-left: 6vw;
+}
+
+.text_afglav12 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2.5vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 0.8vw;
+}
+
+.text_afglav22 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 8.7vw;
+    margin-left: 6vw;
+}
+
+.perf1_img {
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: 6.4vw;
+}
+
+.perf1_img1 {
+    width: 20vw;
+}
+
+.text_afglav32 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 3vw;
+    color: #151515;
+    margin-top: 5.3vw;
+    margin-left: 38.4vw;
+}
+
+.text_afglav42 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 9.2vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav52 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #151515;
+    margin-top: 19.5vw;
+    margin-left: 39.5vw;
+}
+
+#text_afglav52 {
+    position: absolute;
+    width: 10.8vw;
+    border: solid;
+    border-color: #1d1d1d;
+    border-width: 0.3vw;
+    padding: 0.3vw 0.7vw 0.3vw  0.7vw ;
+    background-color: none;
+    margin-top: 19vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav62 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 84.5vw;
+}
+
+.text_afglav72 {
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 76.5vw;
+    width: 10.8vw;
+    height: 2.8vw;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #efefef;
+    background-color: #151515;
+    border: none;
+}
+
+#line12 {
+    position: absolute;
+    width: 87.4vw;
+    height: 2vw;
+    margin-top: 21.5vw;
+    margin-left: 0vw;
+    border-bottom: solid 0.15vw #191919;
+}
+
+/* perf2 */
+.perf2_glav {
+    position: absolute;
+    width: 100vw;
+    margin-left: 6vw;
+    margin-top: 19vw;
+}
+
+.text_afglav12_2 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2.5vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 0.8vw;
+}
+
+.text_afglav22_2 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 8.7vw;
+    margin-left: 6.9vw;
+}
+
+.perf1_img_2 {
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: 6.4vw;
+}
+
+.perf1_img1_2 {
+    width: 20vw;
+}
+
+.text_afglav32_2 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 3vw;
+    color: #151515;
+    margin-top: 5.3vw;
+    margin-left: 38.4vw;
+}
+
+.text_afglav42_2 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 9.2vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav52_2 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #151515;
+    margin-top: 19.5vw;
+    margin-left: 39.5vw;
+}
+
+#text_afglav52_2 {
+    position: absolute;
+    width: 9.4vw;
+    border: solid;
+    border-color: #1d1d1d;
+    border-width: 0.3vw;
+    padding: 0.3vw 0.7vw 0.3vw  0.7vw ;
+    background-color: none;
+    margin-top: 17vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav62_2 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 83.9vw;
+}
+
+.text_afglav72_2 {
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 76.5vw;
+    width: 10.8vw;
+    height: 2.8vw;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #efefef;
+    background-color: #151515;
+    border: none;
+}
+
+#line22 {
+    position: absolute;
+    width: 87.4vw;
+    height: 2vw;
+    margin-top: 19.5vw;
+    margin-left: 0vw;
+    border-bottom: solid 0.15vw #191919;
+}
+
+/* perf3 */
+.perf3_glav {
+    position: absolute;
+    width: 100vw;
+    margin-left: 6vw;
+    margin-top: 36vw;
+}
+
+.text_afglav12_3 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2.5vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 0.8vw;
+}
+
+.text_afglav22_3 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 8.7vw;
+    margin-left: 6.3vw;
+}
+
+.perf1_img_3 {
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: 6.4vw;
+}
+
+.perf1_img1_3 {
+    width: 20vw;
+}
+
+.text_afglav32_3 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 3vw;
+    color: #151515;
+    margin-top: 5.3vw;
+    margin-left: 38.4vw;
+}
+
+.text_afglav42_3 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 9.2vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav52_3 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #151515;
+    margin-top: 19.5vw;
+    margin-left: 39.5vw;
+}
+
+#text_afglav52_3 {
+    position: absolute;
+    width: 9.4vw;
+    border: solid;
+    border-color: #1d1d1d;
+    border-width: 0.3vw;
+    padding: 0.3vw 0.7vw 0.3vw  0.7vw ;
+    background-color: none;
+    margin-top: 19vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav62_3 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 83.9vw;
+}
+
+.text_afglav72_3 {
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 76.5vw;
+    width: 10.8vw;
+    height: 2.8vw;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #efefef;
+    background-color: #151515;
+    border: none;
+}
+
+#line32 {
+    position: absolute;
+    width: 87.4vw;
+    height: 2vw;
+    margin-top: 21.5vw;
+    margin-left: 0vw;
+    border-bottom: solid 0.15vw #191919;
+}
+
+/* perf4 */
+.perf4_glav {
+    position: absolute;
+    width: 100vw;
+    margin-left: 6vw;
+    margin-top: 55vw;
+}
+
+.text_afglav12_4 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2.5vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 0.8vw;
+}
+
+.text_afglav22_4 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 8.7vw;
+    margin-left: 5.9vw;
+}
+
+.perf1_img_4 {
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: 6.4vw;
+}
+
+.perf1_img1_4 {
+    width: 20vw;
+}
+
+.text_afglav32_4 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 3vw;
+    color: #151515;
+    margin-top: 5.3vw;
+    margin-left: 38.4vw;
+}
+
+.text_afglav42_4 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 9.2vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav52_4 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #151515;
+    margin-top: 19.5vw;
+    margin-left: 39.5vw;
+}
+
+#text_afglav52_4 {
+    position: absolute;
+    width: 10.8vw;
+    border: solid;
+    border-color: #1d1d1d;
+    border-width: 0.3vw;
+    padding: 0.3vw 0.7vw 0.3vw  0.7vw ;
+    background-color: none;
+    margin-top: 15vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav62_4 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 83.9vw;
+}
+
+.text_afglav72_4 {
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 76.5vw;
+    width: 10.8vw;
+    height: 2.8vw;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #efefef;
+    background-color: #151515;
+    border: none;
+}
+
+#line42 {
+    position: absolute;
+    width: 87.4vw;
+    height: 2vw;
+    margin-top: 17.5vw;
+    margin-left: 0vw;
+    border-bottom: solid 0.15vw #191919;
+}
+
+/* perf5 */
+.perf5_glav {
+    position: absolute;
+    width: 100vw;
+    margin-left: 6vw;
+    margin-top: 72vw;
+}
+
+.text_afglav12_5 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2.5vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 0.8vw;
+}
+
+.text_afglav22_5 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 8.7vw;
+    margin-left: 5.91vw;
+}
+
+.perf1_img_5 {
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: 6.4vw;
+}
+
+.perf1_img1_5 {
+    width: 20vw;
+}
+
+.text_afglav32_5 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 3vw;
+    color: #151515;
+    margin-top: 5.3vw;
+    margin-left: 38.4vw;
+}
+
+.text_afglav42_5 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 1.2vw;
+    color: #151515;
+    margin-top: 9.2vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav52_5 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #151515;
+    margin-top: 19.5vw;
+    margin-left: 39.5vw;
+}
+
+#text_afglav52_5 {
+    position: absolute;
+    width: 9.4vw;
+    border: solid;
+    border-color: #1d1d1d;
+    border-width: 0.3vw;
+    padding: 0.3vw 0.7vw 0.3vw  0.7vw ;
+    background-color: none;
+    margin-top: 17.1vw;
+    margin-left: 38.5vw;
+}
+
+.text_afglav62_5 {
+    position: absolute;
+    font-family: JostR;
+    font-size: 2vw;
+    color: #1d1d1d;
+    margin-top: 5.5vw;
+    margin-left: 83.9vw;
+}
+
+.text_afglav72_5 {
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 76.5vw;
+    width: 10.8vw;
+    height: 2.8vw;
+    font-family: JostM;
+    font-size: 1vw;
+    color: #efefef;
+    background-color: #151515;
+    border: none;
+}
+
+#line52 {
+    position: absolute;
+    width: 87.4vw;
+    height: 2vw;
+    margin-top: 19.5vw;
+    margin-left: 0vw;
+    border-bottom: solid 0.15vw #191919;
+}

@@ -1,0 +1,222 @@
+.screen2_2 {
+    margin-left: 7.2vw;
+    margin-top: 0vw;
+    width: 100vw;
+    height: 150vh;
+
+}
+
+.container555{
+    position: absolute;
+    width: 84.5vw;
+}
+
+.c1 {
+    position: absolute;
+    font-family: MMMR;
+    font-size: 3.7vw;
+    color: #0a0a0a;
+}
+
+.block_perf {
+    position: absolute;
+    width: 80vw;
+    margin-top: 15vw;
+    margin-left: 0vw;
+}
+
+.card-title {
+    position: absolute;
+    width: 21vw;
+    font-family: JostR;
+    font-size: 1.8vw;
+    color: #1d1d1d;
+    padding: 0 0 0 0;
+    margin-top: 5vw;
+    margin-left: -1vw;
+    text-decoration: none;
+}
+
+.h5.card-title {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.col {
+    margin-top: 10vw;
+}
+
+.card {
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+}
+
+.card-body {
+    position: absolute;
+    border: none;
+    padding-right: 10vw;
+    text-align: left;
+    margin-top: 10vw;
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+.btn-primary {
+    position: absolute;
+    width: 7.5vw;
+    height: 2.1vw;
+    margin-top: 5.1vw;
+    margin-left: 17.7vw;
+    font-family: JostM;
+    font-size: 0.9vw;
+    color: #efefef;
+    background-color: #151515;
+    text-decoration: none;
+    text-align: left;
+    border: 0.45vw #151515 solid;
+}
+
+.card-img-top {
+    position: absolute;
+    width: 10vw;
+    height: 15vw;
+    margin-top: ;
+    margin-bottom: 30vw;
+}
+
+.card-body {
+    border: none;
+    height: 7vw;
+}
+
+.screen6_2 {
+    width: 100vw;
+    margin-top: 50vw;
+}
+
+.sect1 {
+    margin-left: 12vw;
+    width: 70vw;
+    height: 93vw;
+    font-family: MMMR;
+    font-size: 1vw;
+}
+
+.song1 {
+    font-family: MMMB;
+    font-size: 2.5vw;
+    margin-top: 37.5vw;
+    position: absolute;
+    margin-left: 7vw;
+}
+
+.song2 {
+    font-family: MMMR;
+    font-size: 1vw;
+    margin-top: 41.5vw;
+    position: absolute;
+    margin-left: 7vw;
+}
+
+.song3 {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 7vw;
+}
+
+#song3_1 {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 7vw;
+    width: 35vw;
+    height: 25vw;
+    background-color: #0a0a0a solid;
+}
+
+.song4 {
+    position: absolute;
+    margin-top: 44vw;
+    margin-left: 10vw;
+    width: 30vw;
+}
+
+.song4_1 {
+    position: absolute;
+}
+
+.song4_2 {
+    position: absolute;
+}
+
+.song5 {
+    position: absolute;
+    margin-top: 47vw;
+    margin-left: 7vw;
+    width: 64vw;
+    text-align: justify;
+}
+
+.song6 {
+    position: absolute;
+    margin-top: 56vw;
+    margin-left: 7vw;
+    width: 64vw;
+    text-align: justify;
+}
+
+.song7 {
+    position: absolute;
+    margin-top: 63.5vw;
+    margin-left: 7vw;
+    width: 64vw;
+    text-align: justify;
+}
+
+.song8 {
+    position: absolute;
+    font-family: MMMB;
+    margin-top: 69.5vw;
+    margin-left: 7vw;
+    width: 64vw;
+    text-align: justify;
+}
+
+.song9 {
+    position: absolute;
+    margin-top: 71.5vw;
+    margin-left: 8vw;
+    text-align: justify;
+    width: 64vw;
+}
+
+.song10 {
+    position: absolute;
+    margin-top: 73.5vw;
+    margin-left: 8vw;
+    width: 64vw;
+    text-align: justify;
+}
+
+.song11 {
+    position: absolute;
+    margin-top: 75.5vw;
+    margin-left: 8vw;
+    width: 64vw;
+    text-align: justify;
+}
+
+.song12 {
+    position: absolute;
+    margin-top: 78.5vw;
+    margin-left: 7vw;
+    width: 64vw;
+    text-align: justify;
+}
+
+.song13 {
+    position: absolute;
+    margin-top: 84.5vw;
+    margin-left: 7vw;
+    width: 64vw;
+    text-align: justify;
+}

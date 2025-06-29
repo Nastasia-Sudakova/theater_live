@@ -1,0 +1,278 @@
+/* audience menu */
+
+.menu_2 {
+    position: fixed;
+    width: 20.5vw;
+    height: 12vw;
+    background-color:  #0e0e0e;
+    margin-top: 8vw;
+    margin-left: 7vw;
+}
+
+.pp1_3 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: rgb(234, 234, 234);
+    margin-top: 1vw;
+    text-decoration: none;
+}
+
+.pp2_3 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: rgb(234, 234, 234);
+    margin-top: 3vw;
+    text-decoration: none;
+}
+
+.pp3_3 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: rgb(234, 234, 234);
+    margin-top: 5vw;
+    text-decoration: none;
+}
+
+.pp5_3 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: rgb(234, 234, 234);
+    margin-top: 7vw;
+    text-decoration: none;
+}
+
+.pp6_3 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: rgb(234, 234, 234);
+    margin-top: 9vw;
+    text-decoration: none;
+}
+
+.pp7_3 {
+    position: absolute;
+    font-family: JostM;
+    font-size: 1.1vw;
+    color: rgb(234, 234, 234);
+    margin-top: 11vw;
+    text-decoration: none;
+}
+
+.pp1_3:hover, .pp2_3:hover, .pp3_3:hover, .pp4_3:hover, .pp5_3:hover, .pp6_3:hover, .pp7_3:hover, .pp8_3:hover {
+    color: #372e21;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+  
+.sidebar ul li {
+    padding: 0 0 0 0;
+}
+  
+.sidebar ul li a {
+    color:  #e5e5e5;
+    padding: 0 0 0 0;
+    font-family: JostM;
+    font-size: 8vw;
+    text-decoration: none;
+}
+  
+.content {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 60vw;
+    height: 100vw;
+    font-family: MMMR;
+}
+
+.content0000 {
+    margin-top: 6vw;
+    text-align: justify;
+    width: 60vw;
+}
+
+.ww1, .ww4, .ww5, .ww6, .ww7, .ww8, .ww9, .ww10, .ww11, .ww12, .ww14, .ww15, .ww16, .ww17, .ww18 {
+    padding-bottom: 0.5vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+
+.www1 {
+    font-family: MMMB;
+    padding-bottom: 1vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+
+.wwww1 {
+    font-family: MMMB;
+    padding-bottom: 1vw;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+
+.wwww2_1, .wwww3_1, .wwww4_1, .wwww5_1, .wwww6_1, .wwww7_1, .wwww8_1, .wwww9_1 {
+    font-family: MMMB;
+    padding-bottom: 1vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    text-decoration: none;
+    color: #0e0e0e;
+}
+
+.www2, .www3, .www4, .www5, .www6, .www7, .www8, .www9, .www10, .www11, .www12, .www13, .www14, .www15, .www16, .www17, .www18, .www19, .wwww2, .wwww3, .wwww4, .wwww5, .wwww6, .wwww7, .wwww8, .wwww9 {
+    padding-bottom: 0.5vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+} 
+
+.ww2, .ww3, .ww13,  {
+    font-family: MMMB;
+    padding-bottom: 1vw;
+    padding-top: 0.5vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+
+.w1, .w2, .w13 {
+    font-family: MMMB;
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
+    font-size: 1vw;
+}
+
+.w14_1, .w15_1 {
+    font-family: MMMB;
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 1vw;
+}
+
+  .screen_contact {
+    position: absolute;
+    margin-top: 8vw;
+    width: 70vw;
+ }
+
+ .screen_kassa {
+    position: absolute;
+    margin-top: 8vw;
+    width: 70vw;
+ }
+
+ .screen_operators {
+    position: absolute;
+    margin-top: 8vw;
+    width: 70vw;
+ }
+
+ .screen_pk {
+    position: absolute;
+    margin-top: 8vw;
+    width: 70vw;
+ }
+
+ .screen_rules_buy {
+    position: absolute;
+    margin-top: 8vw;
+    width: 70vw;
+ }
+
+ .screen_rules_pos {
+    position: absolute;
+    margin-top: 8vw;
+    width: 70vw;
+ }
+
+ .screen_schemes2 {
+    position: absolute;
+    margin-top: 8vw;
+    width: 70vw;
+ }
+
+ .screen_svo {
+    position: absolute;
+    margin-top: 8vw;
+    width: 70vw;
+ }
+
+ .content7 {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 60vw;
+    height: 50vw;
+    font-family: MMMR;
+ }
+
+  .content9 {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 70vw;
+    height: 50vw;
+    font-family: MMMR;
+ }
+
+  .content8 {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 60vw;
+    height: 33vw;
+    font-family: MMMR;
+ }
+
+ .content77 {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 60vw;
+    height: 3vw;
+    font-family: MMMR;
+ }
+
+ .content444 {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 60vw;
+    height: 10vw;
+    font-family: MMMR;
+ }
+
+ .tbb {
+    font-family: MMMB;
+    font-size: 2vw;
+ }
+
+ .tb {
+    text-decoration: none;
+    color: #0e0e0e;
+    font-family: MMMR;
+    font-size: 1vw;
+ }
+
+ .tb1 {
+    width: 60vw;
+ }
+
+ .tmm {
+    font-family: MMMB;
+    font-size: 2vw;
+    margin-top: 3vw;
+ }
+
+ .tm {
+    text-decoration: none;
+    color: #0e0e0e;
+    font-family: MMMR;
+    font-size: 1vw;
+ }
+
+ .tm1 {
+width: 60vw;
+ }

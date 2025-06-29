@@ -1,0 +1,523 @@
+.menu_3 {
+    position: fixed;
+    width: 20.5vw;
+    height: 11.5vw;
+    background-color:  #0e0e0e;
+    margin-top: 8vw;
+    margin-left: 7vw;
+}
+
+/* 
+.section1_1 {
+    width: 100vw;
+    height: 53vw;
+} */
+
+.content1 {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 60vw;
+    height: 135vw;
+    font-family: MMMR;
+}
+
+.content2 {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 60vw;
+    height: 38vw;
+    font-family: MMMR;
+}
+
+.content666 {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 60vw;
+    height: 357vw;
+    font-family: MMMR;
+}
+
+.pol1 {
+    font-family: MMMB;
+    font-size: 1.5vw;
+    text-align: center;
+    width: 45vw;
+    margin-left: 9vw;
+}
+
+.pol2 {
+    font-family: MMMB;
+    font-size: 1.1vw;
+    text-align: justify;
+}
+
+.pol {
+    font-family: MMMR;
+    font-size: 1vw;
+    text-align: justify;
+}
+
+/* PEOPLE */
+
+.section2_3 {
+    width: 40vw;
+    height: 85vw;
+}
+
+.act_name_page {
+    position: absolute;
+    font-family: MMMR;
+    margin-top: -1vw;
+    font-size: 3.7vw;
+}
+
+.actors_people {
+    display: flex; 
+    flex-flow: column-reverse;
+}
+
+.act1 {
+    position: absolute;
+    margin-top: 7vw;
+}
+
+.section3_3 {
+    width: 40vw;
+    height: 50vw;
+}
+
+.ruc_name_page {
+    position: absolute;
+    font-family: MMMR;
+    font-size: 3.7vw;
+}
+
+.ruco1 {
+    position: absolute;
+    margin-top: 8vw;
+}
+
+.grigorev21:hover, .bodrova21:hover, .mamlin21:hover, .vaskov21:hover, .lozovaya21:hover, .ganin21:hover, .muchoedova21:hover, .belinskaya21:hover, .polyakov21:hover, .rusanova21:hover, .kuchinskiy21:hover, .vasilieva21:hover, .vorobiev21:hover, .ovechkin21:hover {
+    color: #372e21;
+}
+
+.grigorev7 {
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 30vw;
+}
+
+.grigorev11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.grigorev21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.bodrova7 {
+    position: absolute;
+    margin-left: 15vw;
+}
+
+.bodrova11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.bodrova21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.mamlin7 {
+    position: absolute;
+    margin-top: 38vw;
+    margin-left: 15vw;
+}
+
+.mamlin11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.mamlin21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.vaskov7 {
+    position: absolute;
+    margin-left: 45vw;
+}
+
+.vaskov11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.vaskov21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.lozovaya7 {
+    position: absolute;
+    margin-top: 38vw;
+    margin-left: 0vw;
+}
+
+.lozovaya11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.lozovaya21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.ganin7 {
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 15vw;
+}
+
+.ganin11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.ganin21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.muchoedova7 {
+    position: absolute;
+    margin-top: 38vw;
+    margin-left: 30vw;
+}
+
+.muchoedova11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.muchoedova21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.belinskaya7 {
+    position: absolute;
+    margin-left: 0vw;
+}
+
+.belinskaya11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.belinskaya21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.polyakov7 {
+    position: absolute;
+    margin-top: 57vw;
+    margin-left: 0vw;
+}
+
+.polyakov11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.polyakov21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.rusanova7 {
+    position: absolute;
+    margin-top: 57vw;
+    margin-left: 15vw;
+}
+
+.rusanova11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.rusanova21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.kuchinskiy7 {
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 45vw;    
+}
+
+.kuchinskiy11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.kuchinskiy21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.vasilieva7 {
+    position: absolute;
+    margin-left: 30vw;
+}
+
+.vasilieva11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.vasilieva21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.vorobiev7 {
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 0vw;
+    
+}
+
+.vorobiev11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.vorobiev21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+.ovechkin7 {
+    position: absolute;
+    margin-top: 38vw;
+    margin-left: 45vw;
+}
+
+.ovechkin11 {
+    position: absolute;
+    height: 15vw;
+}
+
+.ovechkin21 {
+    position: absolute;
+    width: 20vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    text-decoration: none;
+    margin-top: 15.5vw;
+    /* margin-left: 0.5vw; */
+}
+
+/* rucovodstvo */
+.ruco {
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.director7 {
+    position: absolute;
+    margin-left: 0vw;
+}
+
+.ashanina7 {
+    position: absolute;
+    height: 23vw;
+}
+
+.ashanina11 {
+    position: absolute;
+    font-family: JostL;
+    color: #111111;
+    font-size: 1vw;
+    text-decoration: none;
+    margin-top: 23.5vw;
+    margin-left: 7.5vw;
+}
+
+.ashanina21 {
+    position: absolute;
+    width: 25vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.6vw;
+    text-decoration: none;
+    margin-top: 24.5vw;
+    margin-left: 2.5vw;
+}
+
+.performer7 {
+    position: absolute;
+    margin-left: 19vw;
+}
+
+.sudakova7 {
+    position: absolute;
+    height: 23vw;
+}
+
+.sudakova11 {
+    position: absolute;
+    width: 25vw;
+    font-family: JostL;
+    color: #111111;
+    font-size: 1vw;
+    text-decoration: none;
+    margin-top: 23.5vw;
+    margin-left: 5.5vw;
+}
+
+.sudakova21 {
+    position: absolute;
+    width: 25vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.6vw;
+    text-decoration: none;
+    margin-top: 24.5vw;
+    margin-left: 2.5vw;
+}
+
+.painter7 {
+    position: absolute;
+    margin-left: 38vw;
+}
+
+.antonov7 {
+    position: absolute;
+    height: 23vw;
+}
+
+.antonov11 {
+    position: absolute;
+    width: 25vw;
+    font-family: JostL;
+    color: #111111;
+    font-size: 1vw;
+    text-decoration: none;
+    margin-top: 23.5vw;
+    margin-left: 5.5vw;
+}
+
+.antonov21 {
+    position: absolute;
+    width: 25vw;
+    font-family: JostR;
+    color: #111111;
+    font-size: 1.6vw;
+    text-decoration: none;
+    margin-top: 24.5vw;
+    margin-left: 3.5vw;
+}
